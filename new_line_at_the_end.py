@@ -1,0 +1,6 @@
+print("What", end=" ")
+print("do", end=" ")
+print("you", end=" ")
+print("do", end=" ")
+print("for", end=" ")
+print("leaving?", end=" ")
