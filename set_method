@@ -1,0 +1,16 @@
+b=set()
+print(type(b))
+
+b.add(4)
+b.add(5)
+b.add(5) #Adding a value drepeatedly does not change a set
+b.add((4,5,6))
+print(b)
+
+print(len(b)) #print the length of the set
+
+b.remove(5) #Remove 5 fromt set b
+print(b)
+
+print(b.pop())
+print(b)
