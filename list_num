@@ -1,0 +1,9 @@
+st1=int(input("Enter marks for student Number 1 : "))
+st2=int(input("Enter marks for student Number 2 : "))
+st3=int(input("Enter marks for student Number 3 : "))
+st4=int(input("Enter marks for student Number 4 : "))
+st5=int(input("Enter marks for student Number 5 : "))
+st6=int(input("Enter marks for student Number 6 : "))
+myList=[st1, st2, st3, st4, st5, st6]
+myList.sort()
+print(myList)
