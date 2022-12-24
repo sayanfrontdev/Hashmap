@@ -1,0 +1,25 @@
+from turtle import update
+
+
+myDict= {
+    "fast": "In a Quick Manner",
+    "sayan": "A Coder",
+    "marks": [1, 2, 3],
+    "anotherdict": {'Sayan': 'Player'},
+    1: 2
+}
+
+print(list(myDict.keys()))  #print the keys of the dictionary
+print(myDict.values()) #print the value of the python
+print(myDict.items())
+print(myDict.items())
+updateDict={
+     "Nilanjana": "friend",
+     "Ayan": "friend"
+
+}
+myDict.update(updateDict)  #update dictionary by adding key-value pairs from updateDict
+print(myDict)
+
+print(myDict["sayan"])
+print(myDict["sayan"])
